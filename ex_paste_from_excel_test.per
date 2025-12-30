@@ -1,13 +1,24 @@
 LAYOUT
+VBOX
 TABLE
 {
-[f01      ][f02      ][f03      ]
+[f11      ][f12      ][f13       ]
+}
+END
+TABLE
+{
+[f21      ][f22      ]
 }
 END
 END
+END
 ATTRIBUTES
-EDIT f01 = formonly.field1, TITLE="Column 1";
-EDIT f02 = formonly.field2, TITLE="Column 2";
-DATEEDIT f03 = formonly.field3, TITLE="Column 3";
+EDIT f11 = formonly.field11, TITLE="Column 11";
+EDIT f12 = formonly.field12, TITLE="Column 12";
+DATEEDIT f13 = formonly.field13, TITLE="Column 13";
+EDIT f21 = formonly.field21, TITLE="Column 21";# NOENTRY;
+EDIT f22 = formonly.field22, TITLE="Column 22";#, NOENTRY;
+
 INSTRUCTIONS
-SCREEN RECORD scr(field1, field2, field3)
+SCREEN RECORD scr1(field11, field12, field13);
+SCREEN RECORD scr2(field21, field22);
