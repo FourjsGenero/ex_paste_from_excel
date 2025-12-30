@@ -1,3 +1,5 @@
+# :warning: DEPRECATED :warning:
+
 # ex_paste_from_excel
 
 Note: this example was written before the ability to paste a range of cells from Excel into a GBC application was reintroduced with GBC 5.00.08 (https://4js.com/online_documentation/fjs-gbc-manual-html/#gbc-topics/gbc_whatsnew_50008_2.html).  The coding techniques here are still interesting but you no longer need to explciitly add code to do this.
